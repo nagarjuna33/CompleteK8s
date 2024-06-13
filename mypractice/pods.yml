@@ -6,6 +6,6 @@ metadata:
 spec:
   containers:
   - name: nginx
-      image: 471112902003.dkr.ecr.ap-south-1.amazonaws.com/nginx:latest
+      image: nginx:1.14.2
       ports: 
       - containerPort: 80
