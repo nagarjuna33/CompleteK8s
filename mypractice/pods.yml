@@ -5,7 +5,7 @@ metadata:
   name: nginx_pod
 spec:
   containers:
-    - name: nginx_pod
-      image: 471112902003.dkr.ecr.ap-south-1.amazonaws.com/nginx
+  - name: nginx
+      image: 471112902003.dkr.ecr.ap-south-1.amazonaws.com/nginx:latest
       ports: 
-        - containerPort: 80
+      - containerPort: 80
